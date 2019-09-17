@@ -29,7 +29,36 @@
     Twoje imię: $imie
     TEKST;
 
+     $text2 = <<< tt
+     <hr/>
+    Twoje imię: $imie
+    </br>
+    Twoje nazwisko: $nazwisko
+    tt;
+
     echo $text;
+    echo $text2;
+
+    echo <<< ETYKIETA
+    <h3>
+    jakiś tekst
+    </h3>
+    ETYKIETA;
+
+    $miasto = 'Poznań';
+    echo <<< E
+    Miasto: $miasto<hr>
+    E;
+
+    //składnia nowdoc
+
+      echo <<< 'E'
+    Miasto: $miasto<hr>
+    E;
+
+    echo "Nazwa zmiennej: $miasto";
+    echo '</br>';
+    echo "Nazwa zmiennej: \$miasto";
 
     ?>
 </html>
