@@ -1,0 +1,23 @@
+body {
+  background-color: #282e33;
+  color:white;
+}
+
+.userAvatar {
+  width: 200px;
+  height: auto;
+}
+
+.userName {
+  text-align: center;
+  margin: 10px;
+  color: #337ab7;
+font-size: 20px;
+display:block;
+white-space: nowrap;
+}
+
+.userStatus {
+  font-size: 15px;
+  margin: 0px;
+}
