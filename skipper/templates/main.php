@@ -18,7 +18,6 @@ $userStatus = "użytkownik";
 
   <body>
   <div id="wrapper">
-    <!-- Sidebar -->
     <div id="sidebar-wrapper">
       <ul class="sidebar-container">
         <li><img class="userAvatar" src="../icons/userIcon.png"/></li>
@@ -30,13 +29,12 @@ $userStatus = "użytkownik";
             <!-- to będzie generować php, zależnie od statusu użytkownika-->
             <li><a href="#">Zarządzaj</a></li>
             <li><a href="#">Postępy</a></li>
-            <li><a href="#">Wyloguj</a></li>
+            <li><a href="index.php">Wyloguj</a></li>
           </ul>
         </li>
     </ul>
     </div>
 
-    <!-- Page Content -->
     <div id="page-content-wrapper">
       <div class="container-fluid">
         <div class="row">
