@@ -1,0 +1,60 @@
+form {
+  background-color: #282e33;
+  box-shadow: 5px 5px 10px #282e33;
+  padding: 50px;
+  border-radius: 5px;
+  width: 50%;
+}
+
+#formElements {
+  padding-left: 10%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+#formElements p {
+width: 100%;
+display: flex;
+flex-direction: row;
+flex-wrap: nowrap;
+justify-content: space-between;
+align-items: baseline;
+}
+
+.textField {
+height: 40px;
+width: 50%;
+background-color: #666d75;
+color:inherit;
+border: none;
+font-size: 15px;
+margin: 10px;
+padding: 10px;
+}
+
+#submitButton {
+  color:inherit;
+  background-color: #666d75;
+  height: 30px;
+  width: 40%;
+  text-align: center;
+  margin: 10px;
+  padding: 5px;
+  border: none;
+  font:inherit;
+}
+
+#submitButton:hover {
+  background-color: #337ab7;
+}
+
+#goBack {
+  margin-bottom: 50px;
+  padding: 1px;
+  width: 150px;
+  background-color: #337ab7;
+  box-shadow: 5px 5px 10px #004b83;
+  text-align: center;
+  border-radius: 5px;
+}

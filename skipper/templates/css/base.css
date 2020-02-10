@@ -1,0 +1,13 @@
+body {
+  background-color: #282e33;
+  color:white;
+  font-family: sans-serif;
+  margin: 0px;
+  overflow: hidden;
+}
+
+.buttonClass:hover {
+  background-color: #337ab7;
+  box-shadow: 5px 5px 10px #004b83;
+  transition: all 0.5s;
+}

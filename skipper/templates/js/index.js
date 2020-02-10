@@ -45,6 +45,5 @@ function showLoginForm() {
 }
 
 function hideLoginForm() {
-  console.log("hide");
   document.getElementById("loginWindow").style.transform = "translateX(100%)";
 }
