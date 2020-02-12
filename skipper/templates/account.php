@@ -26,6 +26,8 @@ $userStatus = $level['text'];
 
     <form method="post" action="">
       <h1 style='font-style:italic;margin-top:-20px;margin-bottom:50px;'>Ustawienia konta</h1>
+
+      <div id="formContentWrapper">
         <div id="formElements">
         <p>Imię:
          <input required type="text" class="textField" name="userName" value="<?php echo $user['name']?>"/></p>
@@ -38,15 +40,20 @@ $userStatus = $level['text'];
         <p>Powtórz hasło:
           <input required type="password" class="textField" name="repeatPass" value=""/></p>
         <p style="padding-left: 25%;"><input type="submit" class = "buttonClass" id="submitButton" value="Zapisz"/> </p>
-
       </div>
+      <div id="validation">
+        <p><img src="../icons/false_glyph.png"/>Poprawny adres e-mail</p>
+        <div class="bar"></div>
+        <h3 style="font-style: italic">Hasło:</h3>
+        <p><img src="../icons/false_glyph.png"/>przynajmniej sześć znaków długości</p>
+        <p><img src="../icons/false_glyph.png"/>przynajmniej jedna cyfra</p>
+        <p><img src="../icons/false_glyph.png"/>przynajmniej jedna znak specjalny</p>
+        <p><img src="../icons/false_glyph.png"/>przynajmniej jedna wielka litera</p>
+        <p><img src="../icons/false_glyph.png"/>przynajmniej jedna mała litera</p>
+      </div>
+    </div>
     </form>
  </body>
   <script type="text/javascript" src="./js/user.js"></script>
-  <script type='text/javascript'>
-  document.getElementById('goBack').addEventListener("click",back);
-  function back {
-    window.location.replace("");
-  }
-  </script>
+  <script type="text/javascript" src="./js/account.js"></script>
  </html>

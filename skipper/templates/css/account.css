@@ -3,7 +3,13 @@ form {
   box-shadow: 5px 5px 10px #282e33;
   padding: 50px;
   border-radius: 5px;
-  width: 50%;
+  width: 80%;
+}
+
+#formContentWrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
 }
 
 #formElements {
@@ -20,6 +26,19 @@ flex-direction: row;
 flex-wrap: nowrap;
 justify-content: space-between;
 align-items: baseline;
+}
+
+#validation {
+  margin-left: 10%;
+}
+
+#validation p {
+  
+}
+
+#validation p img {
+  height: 20px;
+  margin: 5px;
 }
 
 .textField {
